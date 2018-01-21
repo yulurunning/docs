@@ -1,4 +1,4 @@
-# 1.Modern JavaScript Programming   
+# 1. Modern JavaScript Programming   
 主要包含：   
 - Object-Oriented JavaScript   
 - Packaging for Distribution   
