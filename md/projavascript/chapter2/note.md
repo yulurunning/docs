@@ -102,7 +102,7 @@ function delayedAlert(msg, time) {
 	}, time);
 }
 ```
-### Currying:   
+- ### Currying:   
 ```js
 function addGenerator(num) {
 	return function(toAdd) {
@@ -110,6 +110,27 @@ function addGenerator(num) {
 	};
 }
 ```
-
+- ### 解决全局变量问题   
+使用自执行的匿名函数可以隐藏变量，而不放到全局变量中。   
+```js
+(function() {
+	var msg = 'Hello world';
+	window.onload = function() {
+		console.log(msg);
+	};
+})()
+```
+- ### **闭包的问题**   
+闭包中内部函数可以使用父函数中的变量。但是，变量提供的是**最后的值**而不是初始值。在循环中经常发生这种问题。   
+#### Demo 2.16:
+```js
+var items = ['click', 'keypress'];
+for (var i = 0; i < items.length; i++) {
+	(function() {
+		var item = items[i];
+		console.log(item);
+	})()
+}
+```
 
 ##### [返回Pro Javascript首页](#/md/projavascript/index.md   "返回")
