@@ -3,7 +3,7 @@
 - Refrences   
 
 ## Refrences   
->Demo 2.3
+#### Demo 2.3:   
 ```js
 var items = new Array('one', 'two', 'three');
 var itemsRef = items;
