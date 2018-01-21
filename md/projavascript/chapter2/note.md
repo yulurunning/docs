@@ -102,3 +102,14 @@ function delayedAlert(msg, time) {
 	}, time);
 }
 ```
+### Currying:   
+```js
+function addGenerator(num) {
+	return function(toAdd) {
+		return num + toAdd;
+	};
+}
+```
+
+
+##### [返回Pro Javascript首页](#/md/projavascript/index.md   "返回")
