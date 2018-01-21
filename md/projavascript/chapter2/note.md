@@ -4,6 +4,7 @@
 - Function Overloading and Type-Checking   
 - **Scope**   
 - **Closures闭包**   
+- **Context**   
 
 ## Refrences   
 #### Demo 2.3:   
@@ -131,6 +132,8 @@ for (var i = 0; i < items.length; i++) {
 		console.log(item);
 	})()
 }
-```
+```   
+
+## Context   
 
 ##### [返回Pro Javascript首页](#/md/projavascript/index.md   "返回")
