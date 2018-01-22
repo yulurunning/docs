@@ -4,8 +4,7 @@
 - Function Overloading and Type-Checking   
 - **Scope**   
 - **Closures闭包**   
-- **Context**   
-- **Object-Oriented Basics**   
+- **Context**    
 
 ## Refrences   
 #### Demo 2.3:   
