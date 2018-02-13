@@ -7,6 +7,7 @@
 ## 目录   
 1. [Modern JavaScript Programming](#/md/projavascript/chapter1/note.md)      
 2. [Object-Oriented JavaScript](#/md/projavascript/chapter2/note.md)   
+3. [Creating Reusable Code](#md/projavascript/chapter3/note.md)   
 
 ## 修订记录   
 - 初始化@2018/01/21 17:07

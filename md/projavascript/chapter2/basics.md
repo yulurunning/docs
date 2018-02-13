@@ -65,9 +65,11 @@ console.log(me.constructor == you.constructor);
 	var user = new User('Bob', 30);
 	console.log(user.getName(), user.getAge());
 	```
+
 ## Private Methods   
-私有方法和私有属性仅可以被其他私有方法、私有属性和特权方法访问。    
-```js
+私有方法和私有属性仅可以被其他私有方法、私有属性和特权方法访问。     
+
+```js   
 function Classroom(students, teacher) {
 	function display() {
 		console.log(this.students.join(' '));
